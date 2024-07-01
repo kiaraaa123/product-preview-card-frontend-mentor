@@ -88,11 +88,18 @@ footer a:hover {
 
 /* 5. Component Styles
 ======================================== */
-
+.card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: var(--white);
+    
+}
 
 /* 6. Page Styles
 ======================================== */
-
+body {
+    background-color: var(--cream);
+}
 
 /* 7. Media Queries
 ======================================== */
