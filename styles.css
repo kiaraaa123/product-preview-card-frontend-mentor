@@ -31,6 +31,19 @@
 ======================================== */
 /* Site Navigation */
 /* Site Footer */
+footer {
+    padding: 45px 0 15px 0;
+}  
+
+footer a {
+    color: var(--aquamarine);
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: var(--deep-aquamarine);
+    font-weight: bold;
+}
 
 /* 5. Component Styles
 ======================================== */
