@@ -166,6 +166,7 @@ body {
         flex-wrap: wrap;
         width: 343px;
         height: 611px;
+        margin-top: 1.75em;
     }
 
     .product-img-mobile {
