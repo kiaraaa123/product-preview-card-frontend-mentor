@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [View on Frontend Mentor](https://your-solution-url.com)
-- Live Site URL: [View via GitHub Pages](https://your-live-site-url.com)
+- Solution URL: [View on Frontend Mentor](https://www.frontendmentor.io/solutions/product-card-component-htmlcss-qwKCtHzt8t)
+- Live Site URL: [View via GitHub Pages](https://kiaraaa123.github.io/product-preview-card-frontend-mentor/)
 
 
 ## My process
