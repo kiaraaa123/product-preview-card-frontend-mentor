@@ -19,6 +19,7 @@
     --white: #FFFFFF;
     --heading-font: Fraunces;
     --body-font: Montserrat;
+    --font-size: 16px
 }
 
 /* 2. Typography Styles
@@ -26,26 +27,31 @@
 h1, .price {
     font-family: var(--heading-font);
     font-weight: 700;
-    font-size: 32px;
+    font-size: 2em;
 }
 
 h2, p, button {
     font-family: var(--body-font);
 }
 
-h1 {
-
+h1{
+    line-height: 32px;
 }
 
 h2 {
     font-weight: 500;
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 0.75em;
+    letter-spacing: 5px;
 }
 
 p {
-    font-size: 14px;
+    font-size: 0.875em;
     font-weight: 500;
+}
+
+h2, .product-description, .old-price {
+    color: var(--aurometal)
 }
 
 .price {
@@ -53,7 +59,7 @@ p {
 }
 
 .old-price {
-    font-size: 13px;
+    font-size: 0.8125em;
     font-weight: 500;
     text-decoration: line-through;
 }
@@ -61,7 +67,7 @@ p {
 button {
     color: var(--white);
     font-weight: 700;
-    font-size: 14px;
+    font-size: 0.875em;
 }
 
 /* 3. Structure Styles
@@ -73,7 +79,7 @@ button {
 /* Site Navigation */
 /* Site Footer */
 footer {
-    padding: 45px 0 15px 0;
+    padding: 55px 0 15px 0;
 }  
 
 footer a {
@@ -92,7 +98,57 @@ footer a:hover {
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: var(--white);
-    
+    width: 600px;
+    height: 450px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 10%;
+}
+
+.product-img-desktop {
+    width: 300px;
+    height: 450px;
+    border-radius: 10px 0 0 10px;
+}
+
+.product-img-mobile {
+    display: none;
+}
+
+.product-info {
+    padding: 15px 30px 0px 30px;
+}
+
+.product-description {
+    line-height: 1.4375em;
+}
+
+.pricing {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 0.9375em;
+}
+
+button {
+    width: 236px;
+    height: 48px;
+    display: flex;
+    background-color: var(--aquamarine);
+    border-radius: 8px;
+    box-shadow: none;
+    border: none;
+    align-items: center;
+    justify-content: center;
+}
+
+button svg {
+    padding-right: 10px;
+}
+
+button:hover {
+    background-color: var(--deep-aquamarine);
+    cursor: pointer;
 }
 
 /* 6. Page Styles
@@ -103,3 +159,39 @@ body {
 
 /* 7. Media Queries
 ======================================== */
+@media screen and ( max-width: 599px ) {
+    .card {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 343px;
+        height: 611px;
+    }
+
+    .product-img-mobile {
+        display: block;
+        width: 343px;
+        height: 240px;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .product-img-desktop {
+        display: none;
+    }
+
+    .product-info {
+        padding: 10px 20px 0px 20px;
+    }
+
+    button {
+        width: 295px;
+    }
+
+    h1 {
+        line-height: 1em
+    }
+
+    .price {
+        line-height: 0em
+    }
+  }
