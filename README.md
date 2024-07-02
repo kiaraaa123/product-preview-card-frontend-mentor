@@ -12,9 +12,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 
 ## Overview
@@ -23,12 +21,13 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 Users should be able to:
 
-- View the optimal layout depending on their device's screen size
+- View the optimal layout depending on their devscreensice's screen size
 - See hover and focus states for interactive elements
 
 ### Screenshot
 
-![](./images/screenshot.png)
+![](./images/screenshot-desktop.png)
+![](./images/screenshot-mobile.png)
 
 ### Links
 
@@ -44,22 +43,17 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - CSS Grid
+- Media queries
 
 
 ### What I learned
 
-This challenge helped me better understand how to read design files and use them to help me ensure that the sites I develop are pixel perfect. Even as someone who has used Figma to design, I didn't realize until working on this design just how much information you can obtain from the Figma file.
+This challenge gave me an opportunity to practice using media queries. It was a great having the opportunity to practice with them since I've only used them in a few projects so far.
 
 
 ### Continued development
 
-I will continue improving my ability to read design files and use them as a guide to develop websites exactly as they were designed to be.
-
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+I will continue to practice building responsive websites. I enjoyed the problem-solving that comes with figuring out the best way to format your code to help it transition seamlessly between different screen sizes.
 
 
 ## Author
@@ -68,7 +62,3 @@ I will continue improving my ability to read design files and use them as a guid
 - LinkedIn - [@kiaramontgomery](https://www.linkedin.com/in/kiaramontgomery/)
 - GitHub - [@kiaraaa123](https://github.com/kiaraaa123)
 - Frontend Mentor - [@kiaraaa123](https://www.frontendmentor.io/profile/kiaraaa123)
-
-
-## Acknowledgments
-
