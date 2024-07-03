@@ -159,7 +159,7 @@ body {
 
 /* 7. Media Queries
 ======================================== */
-@media screen and ( max-width: 599px ) {
+@media screen and ( max-width: 768px ) {
     .card {
         display: flex;
         flex-direction: row;
